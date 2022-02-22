@@ -1,19 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Row, Col } from 'react-bootstrap';
+import products from '../products';
 import Product from '../components/Product';
-import axios from 'axios';
 
 const ConcessionScreen = () => {
-	const [products, setProducts] = useState([]);
-
-	useEffect(() => {
-		const getProducts = async () => {
-			const { data } = await axios.get('/api/concessions');
-			setProducts(data);
-		};
-		getProducts();
-	}, []);
-
 	return (
 		<>
 			<h1>Concessions</h1>
