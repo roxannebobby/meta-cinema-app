@@ -1,5 +1,6 @@
 const products = [
 	{
+		_id: '1',
 		name: 'Chicago-style Popcorn',
 		image: '/images/popcorn-glasses.png',
 		description:
@@ -12,6 +13,7 @@ const products = [
 		numReviews: 12,
 	},
 	{
+		_id: '2',
 		name: 'Coca-Cola',
 		image: '/images/coca-cola.png',
 		description:
@@ -24,6 +26,7 @@ const products = [
 		numReviews: 8,
 	},
 	{
+		_id: '3',
 		name: 'Refreshing Beverage',
 		image: '/images/refreshing-drink.png',
 		description:
@@ -36,6 +39,7 @@ const products = [
 		numReviews: 12,
 	},
 	{
+		_id: '4',
 		name: 'Gummy Worms',
 		image: '/images/gummy-worms.png',
 		description:
@@ -48,6 +52,7 @@ const products = [
 		numReviews: 12,
 	},
 	{
+		_id: '5',
 		name: 'Popcorn with butter',
 		image: '/images/popcorn-soda.png',
 		description:
@@ -60,6 +65,7 @@ const products = [
 		numReviews: 10,
 	},
 	{
+		_id: '6',
 		name: 'Fountain Soda - small',
 		image: '/images/ticket-soda.png',
 		description:
