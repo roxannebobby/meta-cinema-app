@@ -2,6 +2,9 @@ const express = require('express');
 const products = require('./data/products');
 
 const app = express();
+import 'dotenv/config';
+
+require('dotenv').config({ path: '../.env' });
 
 app.get('/', (req, res) => {
 	res.send('API is running...');
