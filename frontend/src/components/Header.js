@@ -1,13 +1,15 @@
 import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
+import logo from '../assets/logo-meta.png'
+
 const Header = () => {
 	return (
 		<header>
 			<Navbar bg='dark' variant='dark' expand='lg' collapseOnSelect>
 				<Container>
-					<Navbar.Brand href='/'>
-						<i className='fa-solid fa-film'></i> MetaCinema
+					<Navbar.Brand>
+						 <a href="/"><img src={logo} alt="<i className='fa-solid fa-film'></i> MetaCinema" /></a>
 					</Navbar.Brand>
 					<Navbar.Toggle aria-controls='basic-navbar-nav' />
 					<Navbar.Collapse id='basic-navbar-nav'>
