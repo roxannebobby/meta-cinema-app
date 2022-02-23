@@ -1,6 +1,7 @@
 import express from 'express'
-const  router = express.Router()
-import Product from '../'
+const router = express.Router()
+
+import Product from '../models/productModels.js'
 
 router.get('/', (req, res) => {
 	res.json(products);
@@ -11,4 +12,5 @@ router.get('/:id', (req, res) => {
 	res.json(product);
 });
 
-export default router;
+
+export default router
