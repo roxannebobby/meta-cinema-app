@@ -3,8 +3,8 @@ const router = express.Router()
 
 import Product from '../models/productModels.js'
 
-router.get('/', (req, res) => {
-	res.json(products);
+router.get('/', async (req, res) => {
+	const products = await Product.find({})
 });
 
 router.get('/:id', (req, res) => {
