@@ -1,0 +1,14 @@
+{
+  "name": "meta-cinema",
+  "version": "1.0.0",
+  "description": "meta cinema app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roxanne Weber",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
