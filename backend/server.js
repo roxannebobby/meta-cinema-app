@@ -1,5 +1,5 @@
-const express = require('express');
-const products = require('./data/products.js');
+import express from 'express';
+import products from './data/products.js';
 const app = express();
 
 app.get('/', (req, res) => {
